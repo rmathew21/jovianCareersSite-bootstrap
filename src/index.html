@@ -215,15 +215,48 @@
       required
       placeholder="John doe"
       id="fullname"
-      >
+      />
   </div>
   
   <!-- EMAIL -->
     <div class="mb-3 col-sm-6">
       <label for="email" class="form-label">Email address</label>
-      <input type="email" class="form-control" name="email" id="email" placeholder="john@doe.com" aria-describedby="emailHelp" required>
+      <input
+      type="email" 
+      class="form-control" 
+      name="email" 
+      id="email" 
+      placeholder="john@doe.com" 
+      aria-describedby="emailHelp" 
+      required
+      />
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
+      <!-- phone  -->
+       <div class="mb-3 col-sm-6">
+        <label for="phone" class="form-label">Phone</label>
+        <input 
+        type="tel"
+        class="form-control"
+        id="phone"
+        placeholder="(555) 555-5555"
+        name="phone"
+        required
+        />
+       </div>
+
+       <!-- DOB -->
+       <div class="mb-3 col-sm-6">
+        <label for="dob" class="form-label">Date of Birth</label>
+        <input 
+        type="date"
+        class="form-control"
+        id="phone"
+        name="phone"
+        required/>
+       </div>
+
+    
   </form>
 
 </div>
