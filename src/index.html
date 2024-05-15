@@ -255,12 +255,47 @@
         name="phone"
         required/>
        </div>
+      
+       <!-- Position -->
+       <div class="mb-3 col-sm-6">
+        <label for="position" class="form-label">Position Applied for</label>
+        <select class="form-select" aria-label="Default select example" required>
+          <option selected value="">Select a position</option>
+          <option value="frontend Developer">Frontend Developer</option>
+          <option value="full stack developer">Full Stack Developer</option>
+          <option value="data scientist">Data Scientist</option>
+          <option value="ml engineer">ML Engineer</option>
+        </select>
+       </div>
 
-    
+      <!-- Resume -->
+      <div class="mb-3 col-sm-6">
+        <label for="resume" class="form-label">Upload Resume</label>
+        <input
+        type="file"
+        class="form-control"
+        id="resume"
+        name="resume"
+        required>
+      </div>
+
+      <!-- Cover Letter -->
+      <div class="mb-3">
+        <label for="resume" class="form-label">Cover Letter</label>
+        <textarea 
+        placeholder="Why should we consider you for the job?"
+        class="form-control"
+        name="resume" 
+        id="resume"
+        rows="5"
+        required>
+        </textarea>
+      </div>
+      
   </form>
 
 </div>
-
+<div style="height: 200px;"></div>
     <!-- <h1>About Jovian</h1>
     <div id="about">
         <div id="description">
